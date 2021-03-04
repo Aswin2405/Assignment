@@ -1,0 +1,96 @@
+.emoji {
+  color: black;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  overflow-x: scroll;
+  height: 100vh;
+  margin-left: 350px;
+  margin-right: auto;
+}
+.emoji__icon {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100px;
+}
+.emoji__icon > .MuiSvgIcon-root {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 90px;
+}
+.emoji__icons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.emoji__icon > h3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+  font-family: "RocknRoll One", sans-serif;
+  text-align: center;
+}
+
+.emoji::-webkit-scrollbar {
+  display: none;
+}
+.terrible {
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 450ms;
+}
+.terrible:hover {
+  background-color: red;
+  transform: scale(1.08);
+  opacity: 1;
+}
+.bad {
+  background-color: white;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 450ms;
+}
+.bad:hover {
+  background-color: #ff4747;
+  transform: scale(1.08);
+  opacity: 1;
+}
+.okay {
+  background-color: white;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 450ms;
+}
+.okay:hover {
+  background-color: #f7eea6;
+  transform: scale(1.08);
+  opacity: 1;
+}
+.good:hover {
+  background-color: #f2e78f;
+  transform: scale(1.08);
+  opacity: 1;
+}
+.good {
+  background-color: white;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 450ms;
+}
+.great {
+  background-color: white;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 450ms;
+}
+.great:hover {
+  background-color: #e0d579;
+  transform: scale(1.08);
+  opacity: 1;
+}
